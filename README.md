@@ -2,7 +2,7 @@
 **ACM Multimedia 2022**
 
 
-![architecture](https://github.com/mingii4922/geometirc-transformation-matrix/assets/architecture.png)
+![architecture](https://github.com/mingii4922/geometric-transformation-estimation/tree/master/assets/architecture.PNG)
 
 The blind estimation of image geometric transformation is an essential problem in digital image forensics. In this paper, we propose an end-to-end transformer-based estimator that can predict the geometric transformation parameters of an image. Deviating from the existing classification-based formulation, we provided a more generalized method by directly estimating the transformation matrix. We note that the frequency peak position of the inherent resampling artifacts leaves explicit clues for the geometric transformation. To use this feature, a direct analysis of the spatial frequency is performed using the positional encoding of fast Fourier transform and multi-head self-attention. Combining the regression layers with the preceding transformer effectively analyzes the geometric transformation parameters of the image. Performing extensive comparison tests with a public database, the proposed method demonstrates a prediction performance higher than existing methods and also demonstrated robustness to JPEG compression.
 
