@@ -66,6 +66,10 @@ When using Terminal, directly execute the code below after setting the path
 
 	python evaluate.py --kernel-type model_name --out-dim 4 --data-folder images/ --enet-type preconv_seven --n-epochs 200 --batch-size 32 --k-fold 0 --image-size 256 --CUDA_VISIBLE_DEVICES 0
 
+## Results
+![dataset](./assets/activation_map.png)
+
+- Sample visualization of the activation maps from the (a)-(d) preprocessing layer, (e)-(h) last layer of the transformer encoder.
 
 
 ## Acknowledgement
